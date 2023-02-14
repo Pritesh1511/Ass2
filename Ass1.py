@@ -11,5 +11,6 @@ pickStart =st.sidebar.date_input("Pick start date:",begDate,min_value = minDateD
 pickEnd = st.sidebar.date_input("Pick start date:",endDate)
 
 filterDF = df.loc[pickStart:pickEnd]
+st.write(filterDF)
 
 
