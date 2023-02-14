@@ -1,6 +1,6 @@
 import pandas as pd
 import streamlit as st
-import plotly as px
+import plotly.express as px
 
 st.write("APP WORKING")
 df = pd.read_csv("Data Maniupulation Worksheet.xlsx",sheet_name = 'Financing Table')
